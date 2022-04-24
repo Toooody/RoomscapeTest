@@ -1,3 +1,15 @@
 mongodb
 username = username
 password = wrok2e5KRS1DRIcn
+
+heroku
+DATABASE_URL
+mongodb+srv://user:wrok2e5KRS1DRIcn@cluster0.uwjpd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+heroku git:remote -a roomscape-test
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master (brug måske kun "git push heroku")
+
+git 
+https://github.com/Toooody/RoomscapeTest
